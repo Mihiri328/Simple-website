@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    
+<style>
+    body{
+        background-color:antiquewhite;
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.VGOh4nLEfVsf424Mvw3rCQAAAA&pid=Api&P=0&h=220);
+        background-repeat: no-repeat; 
+        background-size: cover;
+       
+        
+    }
+
+</style>
+
+
+</head>
+
+<body>
+    <header align="center">
+        <h1><b>Application Form</b></h1>
+    </header> <br> <br> <br>
+    <form action="process.php" method="post">
+
+        <label for=""> Enter Your First Name:  </label>
+        <input type="text" name="userName" id="userName" placeholder="First Name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <br><br>
+
+        <label for=""> Enter Your Last Name:  </label>
+        <input type="text" name="userName" id="userName" placeholder="Last Name"> <br> <br>
+
+        <label for=""> Enter your Email Address:</label> 
+        <input type="email" name="email" id="email" placeholder="Email Address"> <br> <br>
+
+        <label for=""> Enter your ID number: </label>
+        <input type="number" name="number" id="number"> <br> <br>
+
+        
+
+        <label for="">Gender: </label>
+        <select name="gender" id="male"> &nbsp; &nbsp;&nbsp;
+            <option value="male" > Male</option>
+            <option value="female" selected>Female</option>
+        </select>
+        <br> <br><br>
+
+        <label for=""> Citizenship:  </label>
+        <input type="text" name="text" id="text" > <br> <br>
+
+        <label for="">Regional Center: </label>
+        <select name="gender" id="male"> &nbsp; &nbsp;&nbsp;
+            <option value="male" > Anuradapura Regional Center</option>
+            <option value="female" selected>Badulla Regional Center</option>
+            <option value="female" selected>Batticaloa Regional Center</option>
+            <option value="female" selected>Colombo Regional Center</option>
+            <option value="female" selected>Kandy Regional Center</option>
+            <option value="female" selected>Jaffna Regional Center</option>
+            <option value="female" selected>Kurunegala Regional Center</option>
+            <option value="female" selected>Matara Regional Center</option>
+            <option value="female" selected>Ratnapura Regional Center</option>
+        </select>
+<br> <br><br>
+
+
+
+    </form>
+    <footer>
+        <button type="submit" > Submit
+        </button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <button type="reset"> reset
+        </button>
+    </footer>
+    
+</body>
+</html>

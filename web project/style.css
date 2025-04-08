@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+h2{
+    text-decoration: underline;
+    color: brown;
+    background-color: darkkhaki;
+    margin: 5px;
+}
+.colorimg{
+   border-style: solid;
+}
+
+span{
+    color: blueviolet;
+}
+.imgbackground{
+    background-color: lightgrey;
+    
+
+}
+.imgsetting{
+    border: dashed;
+}
+div{
+    display: grid;
+    grid-template-columns: 350px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgbackground{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: lightgrey;
+        margin-bottom: 15px;
+    }
+}
